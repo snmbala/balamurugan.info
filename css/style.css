@@ -191,6 +191,7 @@ span.text-content span {
   vertical-align: middle;
   padding:20px;
   line-height: 22px;
+  overflow: hidden;
 }
 
 span.text-content:hover{
