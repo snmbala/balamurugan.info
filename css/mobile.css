@@ -1,0 +1,120 @@
+body {
+	margin:0px;
+	width:100%;
+	}
+
+.content {
+	padding:0px;
+	width:100%;
+	display: flex; /* or inline-flex */
+
+ 	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	-webkit-flex-flow: column;
+	justify-content: space-around;
+}
+
+.profile{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	}
+
+.contactwrap{
+	display: none;
+	}
+
+.intro{
+	background: #ffffff;
+	width: 100%;
+	margin:0px;
+	position: absolute;
+	top:180px;
+}
+
+ .navig{
+ 	text-align: center;
+ 	top:-19px;
+ }
+
+ h1 {
+	font-size:40px;
+	font-weight: 500;
+	margin-bottom: 8px;
+	padding: 0px 15px;
+	margin:0px;
+}
+
+h2.tag{
+	font-size: 11px;
+	letter-spacing: 1px;
+	padding:5px 15px;
+	margin-bottom: 5px;
+}
+
+p{padding:0px 15px;
+	margin:0px;
+}
+
+.profileImg {
+	width:100%;
+}
+
+.portfolio{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	position: static;
+	
+	-webkit-flex-flow: column;
+}
+
+.work{
+	width:100%;
+	margin: 15px 0px;
+	text-align: center;
+}
+
+span.text-content:hover{
+	opacity: 0;
+}
+
+.showall{
+	width:100%;
+	font-size: 14px;
+	height: 40px;
+	margin-bottom: 50px;
+}
+
+.contactbar{
+	width:100%;
+	height:50px;
+	background: #5E5E5E;
+	position: fixed;
+	
+	position: -webkit-sticky;  // required for Safari
+    position: sticky;
+    bottom: 0;
+
+    display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row;
+	justify-content: flex-start;
+}
+
+.mobileIcon {
+	width:25%;
+	text-align: center;
+	border-right: 1px solid #979797;
+
+}
+
+
+
+
+    
